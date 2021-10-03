@@ -1,5 +1,6 @@
 <br/>
 <p align="center">
+  ![Screen Shot](https://i.imgur.com/cFO0Zij.png)
   <h3 align="center">Forest Park's Resume Site</h3>
 
   <p align="center">
@@ -27,8 +28,6 @@
 * [Acknowledgements](#acknowledgements)
 
 ## About The Project
-
-![Screen Shot](https://i.imgur.com/cFO0Zij.png)
 
 I got tired of continuously updating my resume in MS Word, so I decided to build it with NextJS, DB, and API.
 
