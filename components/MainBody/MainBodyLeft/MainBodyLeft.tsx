@@ -13,8 +13,9 @@ import {
   StyledIconContainer,
   StyledLinksContainer,
   StyledListContainer,
+  StyledPlaygroundButton,
   StyledSummaryContainer,
-} from "./style";
+} from "./styles";
 import { Prism as SyntaxHighlighter } from "react-syntax-highlighter";
 import prismStyle from "react-syntax-highlighter/dist/cjs/styles/hljs/a11y-light";
 import { print } from "graphql/language/printer";
@@ -81,6 +82,11 @@ export default function MainBodyLeft({ data }: IMainBodyLeftProps) {
       <SyntaxHighlighter language="graphql" style={prismStyle}>
         {print(RESUME_QUERY)}
       </SyntaxHighlighter>
+      <StyledPlaygroundButton>
+        <a href={"/api/graphql"} rel="noopener noreferrer" target="_blank">
+          Check Out Playground{" "}
+        </a>
+      </StyledPlaygroundButton>
     </MainBodyLeftContainer>
   );
 }

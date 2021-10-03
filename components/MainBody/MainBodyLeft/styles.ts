@@ -35,3 +35,13 @@ export const StyledListContainer = styled.div`
   padding-top: 1%;
   padding-bottom: 8%;
 `;
+
+export const StyledPlaygroundButton = styled.button`
+  border: 3px solid #000000;
+  font-family: Roboto;
+  font-size: 1rem;
+  font-weight: 300;
+  padding: 2%;
+  margin-bottom: 8%;
+  width: 100%;
+`;
