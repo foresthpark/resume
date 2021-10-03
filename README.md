@@ -8,6 +8,7 @@
     <br/>
     <br/>
     <a href="https://resume.forestpark.dev">View Demo</a>
+  <a href="https://resume.forestpark.dev/api/graphql">View Graphql Playground</a>
   </p>
 </p>
 
