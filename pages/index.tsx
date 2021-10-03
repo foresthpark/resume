@@ -1,10 +1,5 @@
-import styles from "styles/Home.module.css";
-import Head from "next/head";
-import { useQuery, gql } from "@apollo/client";
-import DividerSection from "components/DividerSection/DividerSection";
-import Experience from "components/Experience/Experience";
-import Header from "components/Header/Header";
 import Main from "components/Main/Main";
+import Head from "next/head";
 
 export default function Home() {
   return (

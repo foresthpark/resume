@@ -15,10 +15,10 @@ import {
   StyledListContainer,
   StyledSummaryContainer,
 } from "./style";
-import { gql } from "@apollo/client";
 import { Prism as SyntaxHighlighter } from "react-syntax-highlighter";
 import prismStyle from "react-syntax-highlighter/dist/cjs/styles/hljs/a11y-light";
 import { print } from "graphql/language/printer";
+import RESUME_QUERY from "src/api/forestPark/resumeQuery";
 
 const ICONS_LOOKUP = {
   email: faEnvelope,
@@ -26,36 +26,6 @@ const ICONS_LOOKUP = {
   linkedin: faLinkedin,
   github: faGithub,
 };
-
-const RESUME_QUERY = gql`
-  query ForestPark {
-    bio {
-      name
-      title
-      summary
-      links {
-        text
-        url
-      }
-      skills {
-        tech
-        soft
-      }
-      hobbies
-    }
-
-    experiences {
-      company
-      location
-      title
-      startDate
-      endDate
-      years
-      months
-      description
-    }
-  }
-`;
 
 export default function MainBodyLeft({ data }: IMainBodyLeftProps) {
   const { name, title, summary, links, hobbies, skills } = data;
@@ -69,7 +39,12 @@ export default function MainBodyLeft({ data }: IMainBodyLeftProps) {
         {links?.map((link) => {
           return (
             <StyledIconContainer key={link.url}>
-              <a key={link.url} href={link.url} rel="noopener noreferrer">
+              <a
+                key={link.url}
+                href={link.url}
+                rel="noopener noreferrer"
+                target="_blank"
+              >
                 <FontAwesomeIcon icon={ICONS_LOOKUP[link.text]} size="3x" />
               </a>
             </StyledIconContainer>

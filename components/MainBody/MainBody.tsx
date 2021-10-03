@@ -7,10 +7,11 @@ import MainBodyRight from "./MainBodyRight/MainBodyRight";
 import { StyledMainBodyContainer } from "./styles";
 import ContentLoader from "react-content-loader";
 import RESUME_QUERY from "src/api/forestPark/resumeQuery";
+import useResumeQuery from "src/api/forestPark/useResumeQuery";
 
 const Skeleton = (props) => {
   return (
-    <ContentLoader viewBox="0 0 920 650" height={650} width={920} {...props}>
+    <ContentLoader viewBox="0 0 1000 650" height={650} width={1000} {...props}>
       <rect x="10" y="10" rx="5" ry="5" width="260" height="140" />
       <rect x="280" y="10" rx="5" ry="5" width="260" height="280" />
       <rect x="550" y="10" rx="5" ry="5" width="260" height="140" />
@@ -22,7 +23,7 @@ const Skeleton = (props) => {
 };
 
 export default function MainBody() {
-  const { data, loading, error } = useQuery(RESUME_QUERY);
+  const { data, loading, error, refetch, resumeQuery } = useResumeQuery();
 
   if (loading) return <Skeleton />;
   // if (loading) return <ElevatorText text="Loading..." />;
