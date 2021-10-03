@@ -64,7 +64,7 @@ export const data = {
       employmentType: "FULL_CONTRACT",
       description: [
         "Redesigning and rebuilding EMCO energy website and CMS dashboard from the ground up with NextJS, Express, and MongoDB",
-        "Working closely with stakeholders to meet requirements and desin standards",
+        "Working closely with stakeholders to meet feature requirements and design standards",
       ],
     },
     {
