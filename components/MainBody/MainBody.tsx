@@ -6,36 +6,7 @@ import MainBodyLeft from "./MainBodyLeft/MainBodyLeft";
 import MainBodyRight from "./MainBodyRight/MainBodyRight";
 import { StyledMainBodyContainer } from "./styles";
 import ContentLoader from "react-content-loader";
-
-const RESUME_QUERY = gql`
-  query ForestPark {
-    bio {
-      name
-      title
-      summary
-      links {
-        text
-        url
-      }
-      skills {
-        tech
-        soft
-      }
-      hobbies
-    }
-
-    experiences {
-      company
-      location
-      title
-      startDate
-      endDate
-      years
-      months
-      description
-    }
-  }
-`;
+import RESUME_QUERY from "src/api/forestPark/resumeQuery";
 
 const Skeleton = (props) => {
   return (
@@ -52,7 +23,6 @@ const Skeleton = (props) => {
 
 export default function MainBody() {
   const { data, loading, error } = useQuery(RESUME_QUERY);
-  console.log("🚀 ~ file: index.tsx ~ line 9 ~ Home ~ data", data);
 
   if (loading) return <Skeleton />;
   // if (loading) return <ElevatorText text="Loading..." />;

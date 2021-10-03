@@ -26,6 +26,7 @@ export const data = {
         "NextJS",
         "React",
         "React Native",
+        "Flutter",
         "Graphql",
         "Apollo Server",
         "MongoDB",

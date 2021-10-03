@@ -1,3 +1,4 @@
+import { format } from "date-fns";
 import React from "react";
 import IExperience from "./Experience.interface";
 import {
@@ -31,9 +32,11 @@ export default function Experience({ experience }: IExperience) {
       </StyledCompanyLocationRow>
       <StyledJobTitleText>{title}</StyledJobTitleText>
       <StyledDurationText>
-        {startDate}
-        {endDate ? ` - ${endDate} ` : "- Current "}(
-        {years > 0 ? `${years}y ` : ""}
+        {format(new Date(startDate), "MMM yyyy")}
+        {endDate
+          ? ` - ${format(new Date(endDate), "MMM yyyy")} `
+          : " - Current "}
+        ({years > 0 ? `${years}y ` : ""}
         {months > 0 ? `${months}m` : ""})
       </StyledDurationText>
 
