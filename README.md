@@ -1,6 +1,6 @@
 <br/>
 <p align="center">
-  ![Screen Shot](https://i.imgur.com/cFO0Zij.png)
+<img src="https://i.imgur.com/cFO0Zij.png" alt="Logo" >
   <h3 align="center">Forest Park's Resume Site</h3>
 
   <p align="center">
