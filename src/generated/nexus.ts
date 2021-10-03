@@ -94,7 +94,6 @@ export interface NexusGenFieldTypes {
   }
   Query: { // field return type
     bio: NexusGenRootTypes['Bio'] | null; // Bio
-    experience: NexusGenRootTypes['Experience'] | null; // Experience
     experiences: Array<NexusGenRootTypes['Experience'] | null> | null; // [Experience]
   }
   Skills: { // field return type
@@ -128,7 +127,6 @@ export interface NexusGenFieldTypeNames {
   }
   Query: { // field return type name
     bio: 'Bio'
-    experience: 'Experience'
     experiences: 'Experience'
   }
   Skills: { // field return type name
@@ -138,11 +136,6 @@ export interface NexusGenFieldTypeNames {
 }
 
 export interface NexusGenArgTypes {
-  Query: {
-    experience: { // args
-      id?: string | null; // ID
-    }
-  }
 }
 
 export interface NexusGenAbstractTypeMembers {

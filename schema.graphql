@@ -36,9 +36,6 @@ type Links {
 
 type Query {
   bio: Bio
-
-  """Get an experience by id"""
-  experience(id: ID): Experience
   experiences: [Experience]
 }
 

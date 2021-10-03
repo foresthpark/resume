@@ -13,13 +13,5 @@ export const Query = queryType({
       type: Experience,
       resolve: () => data?.experience,
     });
-
-    type.field("experience", {
-      type: Experience,
-      description: "Get an experience by id",
-      args: { id: idArg() },
-      resolve: (_, { id }: { id: string }, context) =>
-        data?.experience.find((e) => e.id === id),
-    });
   },
 });
