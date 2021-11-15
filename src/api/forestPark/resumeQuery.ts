@@ -27,6 +27,17 @@ const RESUME_QUERY = gql`
       months
       description
     }
+
+    otherExperiences {
+      company
+      location
+      title
+      startDate
+      endDate
+      years
+      months
+      description
+    }
   }
 `;
 

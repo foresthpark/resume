@@ -1,13 +1,10 @@
-import { useQuery, gql } from "@apollo/client";
 import ElevatorText from "components/ElevatorText/ElevatorText";
-import Experience from "components/Experience/Experience";
 import React from "react";
+import ContentLoader from "react-content-loader";
+import useResumeQuery from "src/api/forestPark/useResumeQuery";
 import MainBodyLeft from "./MainBodyLeft/MainBodyLeft";
 import MainBodyRight from "./MainBodyRight/MainBodyRight";
 import { StyledMainBodyContainer } from "./styles";
-import ContentLoader from "react-content-loader";
-import RESUME_QUERY from "src/api/forestPark/resumeQuery";
-import useResumeQuery from "src/api/forestPark/useResumeQuery";
 
 const Skeleton = (props) => {
   return (
@@ -32,7 +29,10 @@ export default function MainBody() {
   return (
     <StyledMainBodyContainer>
       <MainBodyLeft data={data?.bio} />
-      <MainBodyRight experiences={data?.experiences} />
+      <MainBodyRight
+        experiences={data?.experiences}
+        otherExperiences={data?.otherExperiences}
+      />
     </StyledMainBodyContainer>
   );
 }

@@ -34,9 +34,21 @@ type Links {
   url: String
 }
 
+type OtherExperience {
+  company: String
+  description: [String]
+  endDate: Date
+  location: String
+  months: Int
+  startDate: Date
+  title: String
+  years: Int
+}
+
 type Query {
   bio: Bio
   experiences: [Experience]
+  otherExperiences: [OtherExperience]
 }
 
 type Skills {

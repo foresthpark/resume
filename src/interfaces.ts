@@ -17,6 +17,16 @@ export interface IExperience {
   description: string[];
 }
 
+export interface IOtherExperience {
+  company: string;
+  startDate: string;
+  endDate: string;
+  location: string;
+  employmentType: string;
+  title: string;
+  description: string[];
+}
+
 export interface ISkills {
   tech: string[];
   soft: string[];

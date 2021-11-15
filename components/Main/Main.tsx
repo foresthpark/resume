@@ -6,12 +6,12 @@ import { StyledMainContainer } from "./styles";
 export default function Main() {
   return (
     <StyledMainContainer>
-      <div style={{ maxWidth: "20%" }}></div>
+      <div style={{ minWidth: "10%" }}></div>
       <div>
         <Header />
         <MainBody />
       </div>
-      <div style={{ maxWidth: "20%" }}></div>
+      <div style={{ minWidth: "10%" }}></div>
     </StyledMainContainer>
   );
 }

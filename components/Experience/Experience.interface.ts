@@ -1,6 +1,7 @@
 export default interface IExperienceMap {
   experiences?: IExperience[];
   experience?: IExperience;
+  otherExperiences?: IExperience[];
   key?: string;
 }
 

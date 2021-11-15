@@ -16,3 +16,4 @@ export * from "./Bio";
 export * from "./Experience";
 export * from "./Links";
 export * from "./Skills";
+export * from "./OtherExperience";
