@@ -101,7 +101,7 @@ export const data = {
       endDate: "2017-12-31",
       location: "Seoul, South Korea",
       employmentType: "FULL_TIME",
-      title: "Full Stack Developer / Team Lead",
+      title: "Corporate Trainer",
       description: [
         "Coaching students 1:1 from beginner to executives to prepare for overseas relocation",
         "Preparing meaningful and constructive feedback to improve Hyundai/Kia Motors employees’ English ability in areas of grammar, vocabulary, pronunciation and etc.",
