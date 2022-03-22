@@ -6,10 +6,11 @@ export const Bio = objectType({
   name: "Bio",
   definition(t) {
     t.string("name");
-    t.string("title", {
-      description: "The title of the job",
-    });
+    t.string("title");
     t.string("summary");
+    t.string("easterEgg", {
+      description: "Send me an email if you see this.",
+    });
 
     t.list.field("links", {
       type: Links,

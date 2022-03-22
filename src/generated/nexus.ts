@@ -72,6 +72,7 @@ export type NexusGenAllTypes = NexusGenRootTypes & NexusGenScalars
 
 export interface NexusGenFieldTypes {
   Bio: { // field return type
+    easterEgg: string | null; // String
     hobbies: Array<string | null> | null; // [String]
     links: Array<NexusGenRootTypes['Links'] | null> | null; // [Links]
     name: string | null; // String
@@ -116,6 +117,7 @@ export interface NexusGenFieldTypes {
 
 export interface NexusGenFieldTypeNames {
   Bio: { // field return type name
+    easterEgg: 'String'
     hobbies: 'String'
     links: 'Links'
     name: 'String'

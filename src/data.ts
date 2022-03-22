@@ -3,6 +3,8 @@ export const data = {
     name: "Forest Park",
     title: "Full Stack Developer",
     summary: "I enjoy building great products with great teams.",
+    easterEgg:
+      "https://raw.githubusercontent.com/foresthpark/resume/main/public/images/adventure.png ",
     links: [
       {
         text: "email",

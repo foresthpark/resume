@@ -3,13 +3,13 @@
 
 
 type Bio {
+  """Send me an email if you see this."""
+  easterEgg: String
   hobbies: [String]
   links: [Links]
   name: String
   skills: Skills
   summary: String
-
-  """The title of the job"""
   title: String
 }
 
