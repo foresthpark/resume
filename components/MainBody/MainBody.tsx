@@ -21,7 +21,9 @@ const Skeleton = (props) => {
 
 export default function MainBody() {
   const { data, loading, error, refetch, resumeQuery } = useResumeQuery();
-  console.log("🚀🚀🚀 ~ Created by Forest Park. What an Adventure.");
+  console.log(
+    "🚀🚀🚀 ~ Created by Forest Park. Check out the Playground. Let's go on an adventure."
+  );
 
   if (loading) return <Skeleton />;
   // if (loading) return <ElevatorText text="Loading..." />;
