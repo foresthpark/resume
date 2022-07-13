@@ -6,20 +6,18 @@ import {
 import { faEnvelope } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import DividerSection from "components/DividerSection/DividerSection";
-import React from "react";
+import { print } from "graphql/language/printer";
+import { Prism as SyntaxHighlighter } from "react-syntax-highlighter";
+import prismStyle from "react-syntax-highlighter/dist/cjs/styles/hljs/a11y-light";
+import RESUME_QUERY from "src/api/forestPark/resumeQuery";
 import IMainBodyLeftProps from "./MainBodyLeft.interface";
 import {
-  MainBodyLeftContainer,
   StyledIconContainer,
   StyledLinksContainer,
   StyledListContainer,
   StyledPlaygroundButton,
   StyledSummaryContainer,
 } from "./styles";
-import { Prism as SyntaxHighlighter } from "react-syntax-highlighter";
-import prismStyle from "react-syntax-highlighter/dist/cjs/styles/hljs/a11y-light";
-import { print } from "graphql/language/printer";
-import RESUME_QUERY from "src/api/forestPark/resumeQuery";
 
 const ICONS_LOOKUP = {
   email: faEnvelope,

@@ -9,13 +9,5 @@ export default function Main() {
       <Header />
       <MainBody />
     </div>
-    // <StyledMainContainer>
-    //   <div style={{ minWidth: "10%" }}></div>
-    //   <div>
-    //     <Header />
-    //     <MainBody />
-    //   </div>
-    //   <div style={{ minWidth: "10%" }}></div>
-    // </StyledMainContainer>
   );
 }

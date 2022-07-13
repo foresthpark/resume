@@ -9,7 +9,7 @@ export default function MainBodyRight({
   otherExperiences,
 }: IExperienceMap) {
   return (
-    <div className="w-full">
+    <div className="sm:min-w-3/4 w-full">
       <DividerSection title="Experience" />
       <div style={{ width: "100%" }}>
         {experiences?.map((experience, index) => {

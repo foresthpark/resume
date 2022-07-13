@@ -11,9 +11,5 @@ export default function Header() {
       </div>
       <hr className="w-full mt-6 pt-6"></hr>
     </div>
-    // <StyledContainer>
-    //   <StyledName>FOREST PARK</StyledName>
-    //   <StyledTitle>Full Stack Developer</StyledTitle>
-    // </StyledContainer>
   );
 }
