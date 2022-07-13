@@ -13,21 +13,19 @@
   </p>
 </p>
 
-
-
 ## Table Of Contents
 
-* [About the Project](#about-the-project)
-* [Built With](#built-with)
-* [Getting Started](#getting-started)
-  * [Prerequisites](#prerequisites)
-  * [Installation](#installation)
-* [Usage](#usage)
-* [Roadmap](#roadmap)
-* [Contributing](#contributing)
-* [License](#license)
-* [Authors](#authors)
-* [Acknowledgements](#acknowledgements)
+- [About the Project](#about-the-project)
+- [Built With](#built-with)
+- [Getting Started](#getting-started)
+  - [Prerequisites](#prerequisites)
+  - [Installation](#installation)
+- [Usage](#usage)
+- [Roadmap](#roadmap)
+- [Contributing](#contributing)
+- [License](#license)
+- [Authors](#authors)
+- [Acknowledgements](#acknowledgements)
 
 ## About The Project
 
@@ -35,16 +33,16 @@ I got tired of continuously updating my resume in MS Word, so I decided to build
 
 ## Built With
 
-* NextJS
-* Apollo Server
-* Apollo Client
-* Styled Components
+- NextJS
+- Apollo Server
+- Apollo Client
+- Styled Components
+- Tailwind
 
 ## Getting Started
 
 This is an example of how you may give instructions on setting up your project locally.
 To get a local copy up and running follow these simple example steps.
-
 
 ### Installation
 
@@ -66,14 +64,14 @@ npm install
 npm run dev
 ```
 
-
 ## Contributing
 
 Contributions are what make the open source community such an amazing place to be learn, inspire, and create. Any contributions you make are **greatly appreciated**.
-* If you have suggestions for adding or removing projects, feel free to [open an issue](https://github.com/foresthpark//issues/new) to discuss it, or directly create a pull request after you edit the *README.md* file with necessary changes.
-* Please make sure you check your spelling and grammar.
-* Create individual PR for each suggestion.
-* Please also read through the [Code Of Conduct](https://github.com/foresthpark//blob/main/CODE_OF_CONDUCT.md) before posting your first idea as well.
+
+- If you have suggestions for adding or removing projects, feel free to [open an issue](https://github.com/foresthpark//issues/new) to discuss it, or directly create a pull request after you edit the _README.md_ file with necessary changes.
+- Please make sure you check your spelling and grammar.
+- Create individual PR for each suggestion.
+- Please also read through the [Code Of Conduct](https://github.com/foresthpark//blob/main/CODE_OF_CONDUCT.md) before posting your first idea as well.
 
 ### Creating A Pull Request
 
@@ -89,5 +87,4 @@ Distributed under the MIT License. See [LICENSE](https://github.com/foresthpark/
 
 ## Authors
 
-* **Forest Park** - *Chief Procrastination Officer* - [Forest Park]() - **
-
+- **Forest Park** - _Chief Procrastination Officer_ - [Forest Park]() - \*\*
