@@ -51,7 +51,7 @@ export const data = {
       employmentType: "FULL_TIME",
       title: "Full Stack Developer",
       description: [
-        "Utilizing MQTT broker to send and receive event to control devices",
+        "Writing and utilizing MQTT broker endpoints to send and receive events to control devices",
         "Implemented UI elements adhering to the Atomic Design principles with Storybook",
         "Created custom Angular pipes for improved productivity",
         "Integratred NGRX within the application to provide state management",
