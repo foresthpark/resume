@@ -43,6 +43,21 @@ export const data = {
 
   experience: [
     {
+      id: "5",
+      company: "Approach Controls",
+      startDate: "2021-12-01",
+      endDate: null,
+      location: "Calgary, Canada",
+      employmentType: "FULL_TIME",
+      title: "Full Stack Developer",
+      description: [
+        "Utilizing MQTT broker to send and receive event to control devices",
+        "Implemented UI elements adhering to the Atomic Design principles with Storybook",
+        "Created custom Angular pipes for improved productivity",
+        "Integratred NGRX within the application to provide state management",
+      ],
+    },
+    {
       id: "4",
       company: "Keto Clock",
       startDate: "2021-03-01",

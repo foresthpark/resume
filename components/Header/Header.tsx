@@ -7,7 +7,8 @@ export default function Header() {
       <div className="text-5xl font-semibold text-gray-900">Forest Park</div>
       <div className="text-lg  text-gray-800">Full Stack Developer</div>
       <div className="text-lg  text-gray-400">
-        I enjoy using tech to solve problems
+        I enjoy using tech to solve problems, and I enjoy building great
+        products with great teams.
       </div>
       <hr className="w-full mt-6 pt-6"></hr>
     </div>
