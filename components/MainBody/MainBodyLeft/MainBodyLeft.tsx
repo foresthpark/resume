@@ -32,7 +32,7 @@ export default function MainBodyLeft({ data }: IMainBodyLeftProps) {
   const { name, title, summary, links, hobbies, skills } = data;
 
   return (
-    <MainBodyLeftContainer>
+    <div className="sm:w-96 sm:pr-6 w-full">
       {/* Section 1 */}
       <DividerSection title={"About"} />
       <StyledSummaryContainer>{summary}</StyledSummaryContainer>
@@ -87,6 +87,6 @@ export default function MainBodyLeft({ data }: IMainBodyLeftProps) {
           Check Out Playground{" "}
         </a>
       </StyledPlaygroundButton>
-    </MainBodyLeftContainer>
+    </div>
   );
 }

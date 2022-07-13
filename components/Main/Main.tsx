@@ -5,13 +5,17 @@ import { StyledMainContainer } from "./styles";
 
 export default function Main() {
   return (
-    <StyledMainContainer>
-      <div style={{ minWidth: "10%" }}></div>
-      <div>
-        <Header />
-        <MainBody />
-      </div>
-      <div style={{ minWidth: "10%" }}></div>
-    </StyledMainContainer>
+    <div className="w-full p-12 flex flex-col justify-center items-center">
+      <Header />
+      <MainBody />
+    </div>
+    // <StyledMainContainer>
+    //   <div style={{ minWidth: "10%" }}></div>
+    //   <div>
+    //     <Header />
+    //     <MainBody />
+    //   </div>
+    //   <div style={{ minWidth: "10%" }}></div>
+    // </StyledMainContainer>
   );
 }

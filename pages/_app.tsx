@@ -1,6 +1,6 @@
 import { ApolloProvider } from "@apollo/client";
 import { useApollo } from "src/apolloClient";
-import "tailwindcss/tailwind.css";
+import "../styles/globals.css";
 
 function MyApp({ Component, pageProps }) {
   const client = useApollo();

@@ -30,12 +30,12 @@ export default function MainBody() {
   if (error) return <ElevatorText text={`Error! ${error.message}`} error />;
 
   return (
-    <StyledMainBodyContainer>
+    <div className="flex sm:flex-row  flex-col items-start justify-center">
       <MainBodyLeft data={data?.bio} />
       <MainBodyRight
         experiences={data?.experiences}
         otherExperiences={data?.otherExperiences}
       />
-    </StyledMainBodyContainer>
+    </div>
   );
 }
