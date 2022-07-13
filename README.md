@@ -29,7 +29,7 @@
 
 ## About The Project
 
-I got tired of continuously updating my resume in MS Word, so I decided to build it with NextJS, DB, and API.
+I got tired of continuously updating my resume in MS Word, so I decided to build it with NextJS, a DB, and an API.
 
 ## Built With
 
