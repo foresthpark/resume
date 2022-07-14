@@ -114,8 +114,8 @@ export const data = {
     {
       id: "1",
       company: "Hyundai Motors",
-      startDate: "2018-01-01",
-      endDate: "2019-10-31",
+      startDate: "2017-06-01",
+      endDate: "2018-10-31",
       location: "Seoul, South Korea",
       employmentType: "FULL_TIME",
       title: "Corporate Trainer",
