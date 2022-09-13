@@ -27,7 +27,9 @@ export const Experience = objectType({
         differenceInMonths(
           endDate ? new Date(endDate) : new Date(),
           new Date(startDate)
-        ) % 12 ?? 1,
+        ) %
+          12 |
+        1,
     });
     t.list.string("description", {
       resolve: (experience) => experience.description,
