@@ -1,3 +1,4 @@
+import Badge from "components/Badge/Badge";
 import { format } from "date-fns";
 import React from "react";
 import IExperience from "./Experience.interface";
@@ -22,7 +23,9 @@ export default function Experience({ experience }: IExperience) {
     location,
     months,
     years,
+    tech,
   } = experience;
+  console.log("🚀 ~ file: Experience.tsx ~ line 28 ~ Experience ~ tech", tech);
 
   return (
     <StyledExperienceContainer>
@@ -31,6 +34,11 @@ export default function Experience({ experience }: IExperience) {
         <StyledCompanyLocationText>{location}</StyledCompanyLocationText>
       </StyledCompanyLocationRow>
       <StyledJobTitleText>{title}</StyledJobTitleText>
+      <div>
+        {tech?.map((t) => (
+          <Badge key={Math.random()} tech={t} />
+        ))}
+      </div>
       <StyledDurationText>
         {format(new Date(startDate), "MMM yyyy")}
         {endDate

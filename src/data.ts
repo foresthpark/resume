@@ -1,3 +1,52 @@
+// export interface Link {
+//   text: string;
+//   url: string;
+// }
+
+// export interface Skills {
+//   tech: string[];
+//   soft: string[];
+// }
+
+// export interface Bio {
+//   name: string;
+//   title: string;
+//   summary: string;
+//   easterEgg: string;
+//   links: Link[];
+//   skills: Skills;
+//   hobbies: string[];
+// }
+
+// export interface Experience {
+//   id: string;
+//   company: string;
+//   startDate: string;
+//   endDate: string;
+//   location: string;
+//   employmentType: string;
+//   title: string;
+//   description: string[];
+//   tech: string[];
+// }
+
+// export interface OtherExperience {
+//   id: string;
+//   company: string;
+//   startDate: string;
+//   endDate: string;
+//   location: string;
+//   employmentType: string;
+//   title: string;
+//   description: string[];
+// }
+
+// export interface Resume {
+//   bio: Bio;
+//   experience: Experience[];
+//   otherExperience: OtherExperience[];
+// }
+
 export const data = {
   bio: {
     name: "Forest Park",
@@ -43,10 +92,21 @@ export const data = {
 
   experience: [
     {
+      id: "6",
+      company: "Vizzn",
+      startDate: "2022-08-24",
+      endDate: null,
+      location: "Calgary, Canada",
+      employmentType: "FULL_TIME",
+      title: "Full Stack Developer",
+      description: ["Creating REST API endpoints in Golang Gin"],
+      tech: ["Golang", "Gin", "PostgreSQL", "AlloyDB"],
+    },
+    {
       id: "5",
       company: "Approach Controls",
       startDate: "2021-12-01",
-      endDate: null,
+      endDate: "2022-08-24",
       location: "Calgary, Canada",
       employmentType: "FULL_TIME",
       title: "Full Stack Developer",
@@ -56,6 +116,7 @@ export const data = {
         "Created custom Angular pipes for improved productivity",
         "Integratred NGRX within the application to provide state management",
       ],
+      tech: ["Angular", "MQTT", "NGRX", "Storybook"],
     },
     {
       id: "4",
@@ -70,6 +131,14 @@ export const data = {
         "Managing ongoing projects and task delegation for junior developers",
         "Performing code reviews to maintain quality code standards",
       ],
+      tech: [
+        "React Native",
+        "GraphQL",
+        "Apollo Server",
+        "MongoDB",
+        "Serverless",
+        "AWS",
+      ],
     },
     {
       id: "3",
@@ -83,6 +152,7 @@ export const data = {
         "Redesigning and rebuilding EMCO energy website and CMS dashboard from the ground up with NextJS, Express, and MongoDB",
         "Working closely with stakeholders to meet feature requirements and design standards",
       ],
+      tech: ["NextJS", "Prisma", "PostgreSQL", "PlanetScale"],
     },
     {
       id: "2",
@@ -96,6 +166,7 @@ export const data = {
         "Creating VR experience to communicate the scale of solar and wind turbine farms in Alberta using Unreal Engine 4",
         "Creating a 1:1 VR level which is the largest solar farm project in North America",
       ],
+      tech: ["Unreal Engine 4"],
     },
     {
       id: "1",
@@ -108,6 +179,7 @@ export const data = {
       description: [
         "Delivering a full stack NFC scanner/writer app for STEM education in Android and iOS written in Flutter",
       ],
+      tech: ["Flutter", "Dart", "Firebase"],
     },
   ],
   otherExperience: [

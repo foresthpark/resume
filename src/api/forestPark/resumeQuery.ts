@@ -37,6 +37,7 @@ const RESUME_QUERY = gql`
       years
       months
       description
+      tech
     }
   }
 `;

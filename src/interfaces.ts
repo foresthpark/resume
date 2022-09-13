@@ -25,6 +25,7 @@ export interface IOtherExperience {
   employmentType: string;
   title: string;
   description: string[];
+  tech: string[];
 }
 
 export interface ISkills {

@@ -14,4 +14,5 @@ export interface IExperience {
   title: string;
   location: string;
   description: string[];
+  tech: string[];
 }

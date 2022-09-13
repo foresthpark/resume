@@ -41,6 +41,7 @@ type OtherExperience {
   location: String
   months: Int
   startDate: Date
+  tech: [String]
   title: String
   years: Int
 }

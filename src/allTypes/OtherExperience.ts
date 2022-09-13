@@ -38,5 +38,8 @@ export const OtherExperience = objectType({
     t.list.string("description", {
       resolve: (otherExperience) => otherExperience.description,
     });
+    t.list.string("tech", {
+      resolve: (otherExperience) => otherExperience.tech,
+    });
   },
 });

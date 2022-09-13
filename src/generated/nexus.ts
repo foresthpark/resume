@@ -101,6 +101,7 @@ export interface NexusGenFieldTypes {
     location: string | null; // String
     months: number | null; // Int
     startDate: NexusGenScalars['Date'] | null; // Date
+    tech: Array<string | null> | null; // [String]
     title: string | null; // String
     years: number | null; // Int
   }
@@ -146,6 +147,7 @@ export interface NexusGenFieldTypeNames {
     location: 'String'
     months: 'Int'
     startDate: 'Date'
+    tech: 'String'
     title: 'String'
     years: 'Int'
   }
