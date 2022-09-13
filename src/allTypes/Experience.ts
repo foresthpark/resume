@@ -32,5 +32,8 @@ export const Experience = objectType({
     t.list.string("description", {
       resolve: (experience) => experience.description,
     });
+    t.list.string("tech", {
+      resolve: (experience) => experience.tech,
+    });
   },
 });

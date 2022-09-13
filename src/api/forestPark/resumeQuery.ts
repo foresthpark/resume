@@ -26,6 +26,7 @@ const RESUME_QUERY = gql`
       years
       months
       description
+      tech
     }
 
     otherExperiences {
@@ -37,7 +38,6 @@ const RESUME_QUERY = gql`
       years
       months
       description
-      tech
     }
   }
 `;
