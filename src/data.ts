@@ -1,52 +1,3 @@
-// export interface Link {
-//   text: string;
-//   url: string;
-// }
-
-// export interface Skills {
-//   tech: string[];
-//   soft: string[];
-// }
-
-// export interface Bio {
-//   name: string;
-//   title: string;
-//   summary: string;
-//   easterEgg: string;
-//   links: Link[];
-//   skills: Skills;
-//   hobbies: string[];
-// }
-
-// export interface Experience {
-//   id: string;
-//   company: string;
-//   startDate: string;
-//   endDate: string;
-//   location: string;
-//   employmentType: string;
-//   title: string;
-//   description: string[];
-//   tech: string[];
-// }
-
-// export interface OtherExperience {
-//   id: string;
-//   company: string;
-//   startDate: string;
-//   endDate: string;
-//   location: string;
-//   employmentType: string;
-//   title: string;
-//   description: string[];
-// }
-
-// export interface Resume {
-//   bio: Bio;
-//   experience: Experience[];
-//   otherExperience: OtherExperience[];
-// }
-
 export const data = {
   bio: {
     name: "Forest Park",
@@ -100,7 +51,7 @@ export const data = {
       employmentType: "FULL_TIME",
       title: "Full Stack Developer",
       description: ["Creating REST API endpoints in Golang Gin"],
-      tech: ["Golang", "Gin", "PostgreSQL", "AlloyDB"],
+      tech: ["Golang", "Gin", "gorm", "PostgreSQL", "AlloyDB"],
     },
     {
       id: "5",
