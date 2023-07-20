@@ -50,8 +50,13 @@ export const data = {
       location: "Calgary, Canada",
       employmentType: "FULL_TIME",
       title: "Full Stack Developer",
-      description: ["Creating REST API endpoints in Golang Gin"],
-      tech: ["Golang", "Gin", "gorm", "PostgreSQL", "AlloyDB"],
+      description: [
+        "Developed visually appealing and interactive graphs using data visualization techniques to provide insights and facilitate decision-making processes",
+        "Built efficient internal tools and applications to streamline workflows and enhance team productivity, resulting in improved efficiency and time savings",
+        "Authored comprehensive documentation, both for internal team use and external clients, ensuring clear and concise instructions for seamless adoption and integration",
+        "Collaborated closely with stakeholders, actively engaging in direct communication to gather and understand feature requirements, ensuring accurate implementation and alignment with business objectives",
+      ],
+      tech: ["NextJs", "React", "Tailwind", "Antd", , "Golang"],
     },
     {
       id: "5",
