@@ -25,7 +25,6 @@ export default function Experience({ experience }: IExperience) {
     years,
     tech,
   } = experience;
-  console.log("🚀 ~ file: Experience.tsx ~ line 28 ~ Experience ~ tech", tech);
 
   return (
     <StyledExperienceContainer>
