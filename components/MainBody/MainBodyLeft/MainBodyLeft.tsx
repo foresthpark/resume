@@ -40,7 +40,7 @@ export default function MainBodyLeft({ data }: IMainBodyLeftProps) {
             <StyledIconContainer key={link.url}>
               <a
                 key={link.url}
-                href={link.url}
+                href={link.text === "email" ? `mailto:${link.url}` : link.url}
                 rel="noopener noreferrer"
                 target="_blank"
               >
