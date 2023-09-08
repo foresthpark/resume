@@ -202,7 +202,7 @@ export const data = {
       employmentType: "FULL_TIME",
       title: "Corporate Trainer",
       description: [
-        "Improved clients' commusnication skills in English and negotiating with American buyers",
+        "Improved clients' communication skills in English and negotiating with American buyers",
         "Illustrated the difference between Asian and Western business cultures",
       ],
     },
