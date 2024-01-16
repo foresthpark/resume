@@ -1,4 +1,4 @@
-interface IProject {
+export interface IProject {
   id: string;
   name: string;
   description: string[];
