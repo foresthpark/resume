@@ -28,6 +28,19 @@ export interface IOtherExperience {
   description: string[];
 }
 
+export interface IProjects {
+  name: string;
+  description: string[];
+  url?: string;
+}
+
+export interface ITalks {
+  title: string;
+  organizer: string;
+  description: string[];
+  url?: string;
+}
+
 export interface ISkills {
   tech: string[];
   soft: string[];

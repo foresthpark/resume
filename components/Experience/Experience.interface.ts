@@ -2,6 +2,10 @@ export default interface IExperienceMap {
   experiences?: IExperience[];
   experience?: IExperience;
   otherExperiences?: IExperience[];
+  projects?: IProject[];
+  project?: IProject;
+  talks?: ITalk[];
+  talk?: ITalk;
   key?: string;
 }
 

@@ -56,8 +56,10 @@ export interface NexusGenObjects {
   Experience: faces.IExperience;
   Links: faces.ILinks;
   OtherExperience: faces.IOtherExperience;
+  Projects: faces.IProjects;
   Query: {};
   Skills: faces.ISkills;
+  Talks: faces.ITalks;
 }
 
 export interface NexusGenInterfaces {
@@ -105,14 +107,27 @@ export interface NexusGenFieldTypes {
     title: string | null; // String
     years: number | null; // Int
   }
+  Projects: { // field return type
+    description: Array<string | null> | null; // [String]
+    name: string | null; // String
+    url: string | null; // String
+  }
   Query: { // field return type
     bio: NexusGenRootTypes['Bio'] | null; // Bio
     experiences: Array<NexusGenRootTypes['Experience'] | null> | null; // [Experience]
     otherExperiences: Array<NexusGenRootTypes['OtherExperience'] | null> | null; // [OtherExperience]
+    projects: Array<NexusGenRootTypes['Projects'] | null> | null; // [Projects]
+    talks: Array<NexusGenRootTypes['Talks'] | null> | null; // [Talks]
   }
   Skills: { // field return type
     soft: Array<string | null> | null; // [String]
     tech: Array<string | null> | null; // [String]
+  }
+  Talks: { // field return type
+    description: Array<string | null> | null; // [String]
+    organizer: string | null; // String
+    title: string | null; // String
+    url: string | null; // String
   }
 }
 
@@ -151,14 +166,27 @@ export interface NexusGenFieldTypeNames {
     title: 'String'
     years: 'Int'
   }
+  Projects: { // field return type name
+    description: 'String'
+    name: 'String'
+    url: 'String'
+  }
   Query: { // field return type name
     bio: 'Bio'
     experiences: 'Experience'
     otherExperiences: 'OtherExperience'
+    projects: 'Projects'
+    talks: 'Talks'
   }
   Skills: { // field return type name
     soft: 'String'
     tech: 'String'
+  }
+  Talks: { // field return type name
+    description: 'String'
+    organizer: 'String'
+    title: 'String'
+    url: 'String'
   }
 }
 

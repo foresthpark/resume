@@ -138,6 +138,64 @@ export const data = {
       tech: ["Flutter", "Dart", "Firebase"],
     },
   ],
+
+  talks: [
+    {
+      id: "5f30e4e6-d62b-4ead-b43f-6d21b3679a57",
+      title: "Generic Typescript Components",
+      organizer: "DEVFEST YYC",
+      url: "https://devfestyyc.com/sessions/539477",
+      description: [
+        "Creating a generic pure component in React to increase reusability, improve type safety, and maintain easily.",
+      ],
+    },
+  ],
+
+  projects: [
+    {
+      id: "7676608c-274a-4496-8133-9d9b84eed4aa",
+      name: "SDC",
+      description: [
+        "Software Developers of Calgary (SDC) is a community website that helps developers learn and build together through mini hackathon events",
+        "Developed a website enabling administrators to create events, oversee user management, and manage projects.",
+      ],
+      url: "https://sdc.fyi",
+    },
+    {
+      id: "7d52035d-70d1-47c8-bce1-eb9896a43440",
+      name: "Care My Way",
+      description: [
+        "A caregivers app for aging loved ones. Care my Way offers resources and tools to help you navigate the care journey.",
+        "Developed a website landing page for Care My Way, a caregiving app designed to support individuals caring for their aging loved ones.",
+        "Implemented features and tools to provide valuable resources for users, including tools for hiring caregivers and a wide range of informative resources aimed at assisting families in providing the best care for their elderly family members.",
+        "Contributed to the creation of a user-friendly platform, offering essential resources and guidance to facilitate the caregiving journey for users.",
+      ],
+      url: "https://caremyway-ca.vercel.app",
+    },
+    {
+      id: "e46639de-217d-4a29-8e8f-27f5138b16f4",
+      name: "Buy me a Coffee",
+      description: [
+        "Implemented a secure and efficient payment system using Stripe, allowing users to make donations with ease while ensuring the security of financial transactions.",
+        "Leveraged Airtable to organize and manage user data and donation records, streamlining the administrative aspects of the website.",
+      ],
+      url: "https://coffee.forestp.dev",
+    },
+    {
+      id: "88428469-5cef-4dd4-8f9c-481073326bd1",
+      name: "Inuka",
+      description: [
+        "Earned the title of 'Best in Category' for Family and Community Centred Care at the Innovation 4 Health Hackathon.",
+      ],
+      url: "https://livewirecalgary.com/2020/04/02/future-calgary-inuka-inc-building-better-health-communication/",
+    },
+    {
+      id: "99454e90-7f80-447f-97f8-08531213db22",
+      name: "Expense Robot",
+      description: ["Achieved 1st place in the ATB Open Banking Hackathon."],
+    },
+  ],
+
   otherExperience: [
     {
       id: "1",

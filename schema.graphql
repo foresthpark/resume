@@ -46,15 +46,30 @@ type OtherExperience {
   years: Int
 }
 
+type Projects {
+  description: [String]
+  name: String
+  url: String
+}
+
 type Query {
   bio: Bio
   experiences: [Experience]
   otherExperiences: [OtherExperience]
+  projects: [Projects]
+  talks: [Talks]
 }
 
 type Skills {
   soft: [String]
   tech: [String]
+}
+
+type Talks {
+  description: [String]
+  organizer: String
+  title: String
+  url: String
 }
 
 """

@@ -17,3 +17,5 @@ export * from "./Experience";
 export * from "./Links";
 export * from "./Skills";
 export * from "./OtherExperience";
+export * from "./Projects";
+export * from "./Talks";

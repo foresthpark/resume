@@ -38,6 +38,8 @@ export default function MainBody() {
       <MainBodyRight
         experiences={data?.experiences}
         otherExperiences={data?.otherExperiences}
+        projects={data?.projects}
+        talks={data?.talks}
       />
     </div>
   );

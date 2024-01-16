@@ -29,6 +29,19 @@ const RESUME_QUERY = gql`
       tech
     }
 
+    projects {
+      name
+      description
+      url
+    }
+
+    talks {
+      title
+      organizer
+      description
+      url
+    }
+
     otherExperiences {
       company
       location
