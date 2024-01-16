@@ -1,3 +1,6 @@
+import IProject from "components/Projects/Projects.interface";
+import ITalk from "components/Talk/Talk.interface";
+
 export default interface IExperienceMap {
   experiences?: IExperience[];
   experience?: IExperience;

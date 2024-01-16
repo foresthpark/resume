@@ -1,4 +1,4 @@
-interface ITalk {
+export default interface ITalk {
   title: string;
   organizer: string;
   description: string[];

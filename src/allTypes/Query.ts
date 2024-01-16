@@ -1,4 +1,4 @@
-import { idArg, queryType } from "@nexus/schema";
+import { queryType } from "@nexus/schema";
 import { data } from "src/data";
 import { Bio, Experience, OtherExperience, Projects, Talks } from "./index";
 
@@ -22,7 +22,7 @@ export const Query = queryType({
     type.list.field("projects", {
       type: Projects,
       resolve: () => {
-        return data?.projects as IProject[];
+        return data?.projects;
       },
     });
 
