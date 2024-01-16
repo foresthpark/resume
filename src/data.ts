@@ -194,6 +194,14 @@ export const data = {
       name: "Expense Robot",
       description: ["Achieved 1st place in the ATB Open Banking Hackathon."],
     },
+    {
+      id: "4f97c1d8-d923-49a9-b3de-41afc8690b31",
+      name: "Studio Phi Tattoos",
+      description: [
+        "Designed and developed a streamlined landing page for Studio Phi Tattoo Studio, featuring essential information and an engaging Shopify e-commerce integration",
+      ],
+      url: "https://studiophitattoos.com",
+    },
   ],
 
   otherExperience: [
