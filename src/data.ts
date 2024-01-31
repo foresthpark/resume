@@ -51,14 +51,14 @@ export const data = {
       employmentType: "FULL_TIME",
       title: "Full Stack Developer",
       description: [
-        "Spearheaded the efficient reduction of the JavaScript bundle size for a web application by implementing advanced optimization strategies, resulting in a 50% reduction in file size",
+        "Spearheaded the efficient reduction of the JavaScript bundle size for the web application by implementing advanced optimization strategies, resulting in a 50% reduction in file size",
         "Took charge of overseeing the complete overhaul of core logic state flow, including the seamless transition to an external state manager, thereby enhancing the application's maintainability and scalability",
         "Developed visually appealing and interactive graphs using data visualization techniques to provide insights and facilitate decision-making processes",
         "Built efficient internal tools and applications to streamline workflows and enhance team productivity, resulting in improved efficiency and time savings",
         "Authored comprehensive documentation, both for internal team use and external clients, ensuring clear and concise instructions for seamless adoption and integration",
         "Collaborated closely with stakeholders, actively engaging in direct communication to gather and understand feature requirements, ensuring accurate implementation and alignment with business objectives",
       ],
-      tech: ["NextJs", "React", "Tailwind", "Antd", "Golang"],
+      tech: ["NextJs", "React", "Tailwind", "Antd", "Golang", "Svelte Kit"],
     },
     {
       id: "5",
@@ -154,6 +154,20 @@ export const data = {
   ],
 
   projects: [
+    // {
+    //   id: "",
+    //   name: "",
+    //   description: [],
+    // },
+    {
+      id: "dcb6d8f9-5732-46a9-9d84-547b91357dd8",
+      name: "Sharewear",
+      description: [
+        "Successfully completed the project under budget and ahead of the estimated deadline, demonstrating strong project management skills and cost-effective development practices",
+        "Developed and launched the Sharewear app, a cutting-edge NFC-enabled networking tool, designed for seamless contact sharing in business environments",
+      ],
+      url: "https://sharewearshop.com",
+    },
     {
       id: "7676608c-274a-4496-8133-9d9b84eed4aa",
       name: "SDC",
