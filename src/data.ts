@@ -51,6 +51,8 @@ export const data = {
       employmentType: "FULL_TIME",
       title: "Full Stack Developer",
       description: [
+        "Spearheaded the efficient reduction of the JavaScript bundle size for a web application by implementing advanced optimization strategies, resulting in a 50% reduction in file size",
+        "Took charge of overseeing the complete overhaul of core logic state flow, including the seamless transition to an external state manager, thereby enhancing the application's maintainability and scalability",
         "Developed visually appealing and interactive graphs using data visualization techniques to provide insights and facilitate decision-making processes",
         "Built efficient internal tools and applications to streamline workflows and enhance team productivity, resulting in improved efficiency and time savings",
         "Authored comprehensive documentation, both for internal team use and external clients, ensuring clear and concise instructions for seamless adoption and integration",
