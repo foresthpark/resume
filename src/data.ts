@@ -16,7 +16,7 @@ export const data = {
       },
       {
         text: "website",
-        url: "https://www.forestpark.dev",
+        url: "https://www.forestp.dev",
       },
       // {
       //   text: "linkedin",
