@@ -58,7 +58,14 @@ export const data = {
         "Authored comprehensive documentation, both for internal team use and external clients, ensuring clear and concise instructions for seamless adoption and integration",
         "Collaborated closely with stakeholders, actively engaging in direct communication to gather and understand feature requirements, ensuring accurate implementation and alignment with business objectives",
       ],
-      tech: ["NextJs", "React", "Tailwind", "Antd", "Golang", "Svelte Kit"],
+      tech: [
+        "NextJs",
+        "React",
+        "React Native",
+        "Tailwind",
+        "Golang",
+        "Svelte Kit",
+      ],
     },
     {
       id: "5",
