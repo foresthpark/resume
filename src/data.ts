@@ -18,10 +18,10 @@ export const data = {
         text: "website",
         url: "https://www.forestpark.dev",
       },
-      {
-        text: "linkedin",
-        url: "https://www.linkedin.com/in/forestpark",
-      },
+      // {
+      //   text: "linkedin",
+      //   url: "https://www.linkedin.com/in/forestpark",
+      // },
     ],
     skills: {
       tech: [
