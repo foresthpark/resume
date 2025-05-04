@@ -52,15 +52,15 @@ export default function MainBodyLeft({ data }: IMainBodyLeftProps) {
       </StyledLinksContainer>
 
       {/* {Section 2} */}
-      <DividerSection title={"Skills"} />
+      {/* <DividerSection title={"Skills"} />
       <StyledListContainer>
         {skills?.tech?.map((tech) => (
           <li key={tech}>{tech}</li>
         ))}
-      </StyledListContainer>
+      </StyledListContainer> */}
 
       {/* {Section 3} */}
-      <DividerSection title={"Other Skills"} />
+      <DividerSection title={"Skills"} />
       <StyledListContainer>
         {skills?.soft?.map((skill) => (
           <li key={skill}>{skill}</li>
