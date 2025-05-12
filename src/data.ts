@@ -62,15 +62,7 @@ export const data = {
         "Managed full technology stack from database design to frontend implementation, ensuring seamless user experience for both educational administrators and medical students.",
         "Delivered the Sharewear, the NFC-enabled networking app, ahead of the estimated deadline by a month, achieving a project completion cost that delivered 20% under budget, showcasing exceptional project management and agile development practices.",
       ],
-      tech: [
-        "NextJs",
-        "Vercel",
-        "Golang",
-        "Tailwind",
-        "PostgreSQL",
-        "DrizzleORM",
-        "Stripe",
-      ],
+      tech: ["NextJs", "Tailwind", "PostgreSQL", "DrizzleORM", "Stripe"],
     },
     {
       id: "6",
