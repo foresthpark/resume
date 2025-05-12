@@ -68,7 +68,7 @@ export const data = {
       id: "6",
       company: "Vizzn",
       startDate: "2022-08-24",
-      endDate: "2024-03-31",
+      endDate: "2025-03-31",
       location: "Balzac, Canada",
       employmentType: "FULL_TIME",
       title: "Full Stack Developer",
