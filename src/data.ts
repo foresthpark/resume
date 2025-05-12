@@ -77,7 +77,6 @@ export const data = {
         "Orchestrated the transition to an external state manager, streamlining data handling processes that led to a reduction of load times by 50%, significantly enhancing user experience for over 10,000 active users.",
         "Led the end-to-end implementation of the i18next internationalization framework in the web application, enhancing localization processes and elevating user satisfaction across a diverse linguistic audiences.",
         "Built efficient internal tools and applications to streamline workflows and enhance team productivity, resulting in improved efficiency and time savings",
-        "Led the implementation of the i18next internationalization framework in the web and mobile apps, guiding the project from conception to completion, resulting in seamless localization and improved user experience for a global audience",
       ],
       tech: [
         "NextJs",
