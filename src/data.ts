@@ -55,13 +55,13 @@ export const data = {
       endDate: null,
       location: "Edmonton, AB",
       employmentType: "CONTRACT",
-      title: "Frontend Lead",
+      title: "Frontend Lead - Contract",
       description: [
         "Spearheaded frontend architecture decisions and technical strategy, guiding development teams toward scalable and maintainable solutions across multiple product initiatives.",
         "Conducted comprehensive performance audits and implemented optimization strategies that improved page load times and Core Web Vitals scores, enhancing user experience and search engine rankings.",
         "Led SEO strategy development and implementation, providing technical guidance on meta optimization, structured data, and site architecture to maximize organic search visibility.",
         "Mentored junior and mid-level frontend developers through code reviews, architectural discussions, and best practice workshops, fostering professional growth and technical excellence within the team.",
-        "Established frontend development standards and guidelines, creating documentation and processes that streamlined development workflows and improved code quality across projects."
+        "Established frontend development standards and guidelines, creating documentation and processes that streamlined development workflows and improved code quality across projects.",
       ],
     },
     {
