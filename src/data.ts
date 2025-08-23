@@ -72,7 +72,7 @@ export const data = {
       endDate: null,
       location: "Calgary, AB",
       employmentType: "FULL_TIME",
-      title: "Full Stack Developer",
+      title: "Lead Developer - Contract",
       description: [
         "Developed robust analytics dashboard for tracking student progress across multiple performance dimensions, providing actionable insights on case completion rates and assessment scores.",
         "Led architecture and development of an AI-powered OSCE exam preparation system for North American medical students, directly collaborating with healthcare stakeholders to translate complex requirements into functional specifications.",
