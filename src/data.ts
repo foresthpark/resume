@@ -63,6 +63,7 @@ export const data = {
         "Mentored junior and mid-level frontend developers through code reviews, architectural discussions, and best practice workshops, fostering professional growth and technical excellence within the team.",
         "Established frontend development standards and guidelines, creating documentation and processes that streamlined development workflows and improved code quality across projects.",
       ],
+      tech: [],
     },
     {
       id: "7",
