@@ -203,10 +203,18 @@ export const data = {
     //   description: [],
     // },
     {
+      id: "019955db-7579-70fd-97d2-cb5adf6cd225",
+      name: "Care Carry",
+      description: [
+        "Built a marketplace platform that connects Canadian families with certified caregivers for at-home care services. Features include caregiver discovery with advanced filtering, intelligent booking system with availability management, secure payment processing with automatic fee distribution, in-app messaging between families and caregivers, review and rating system, and automated T4 tax form generation for CRA compliance. Handles the complete care service lifecycle from discovery to payment and tax reporting.",
+      ],
+      url: "https://care-carry.forestp.dev",
+    },
+    {
       id: "01968fb1-f692-7446-b3ae-72efac16a4ac",
       name: "OSCEai Pro",
       description: [
-        "A web application that allows medical students to practice OSCE exams with AI-powered simulations.",
+        "A medical education SaaS platform that uses AI to simulate patient interactions for OSCE (Objective Structured Clinical Examination) practice.Featuring real-time case simulations, automated feedback generation, and comprehensive performance tracking for medical students and instructors.",
       ],
       url: "https://osceaipro.com",
     },

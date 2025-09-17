@@ -19,7 +19,7 @@ export const StyledSquareContainer = styled.div`
   justify-content: center;
   align-items: center;
   margin-top: 0.2rem;
-  margin-bottom: 0.5rem;
+  margin-bottom: 0.2rem;
 `;
 
 export const StyledHRLine = styled.hr`

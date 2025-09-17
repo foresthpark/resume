@@ -6,7 +6,7 @@ export const StyledExperienceContainer = styled.div`
   align-items: flex-start;
   justify-content: center;
   width: auto;
-  padding-bottom: 5%;
+  padding-bottom: 15px;
 `;
 
 export const StyledCompanyLocationRow = styled.div`

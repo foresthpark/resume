@@ -33,7 +33,7 @@ export default function Experience({ experience }: IExperience) {
         <StyledCompanyLocationText>{location}</StyledCompanyLocationText>
       </StyledCompanyLocationRow>
       <StyledJobTitleText>{title}</StyledJobTitleText>
-      <div className="mb-[1%] space-x-2">
+      <div className="space-x-2">
         {tech?.map((t) => (
           <Badge key={Math.random()} tech={t} />
         ))}
