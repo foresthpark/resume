@@ -1,0 +1,25 @@
+@import 'tailwindcss';
+@import '@fontsource-variable/inter';
+
+@layer base {
+  body {
+    @apply bg-stone-50 text-stone-950 antialiased;
+    font-family: 'Inter Variable', system-ui, sans-serif;
+  }
+
+  h2 {
+    @apply mb-4 border-b border-stone-200 pb-2 text-2xl font-semibold tracking-tight;
+  }
+
+  h3 {
+    @apply text-base font-semibold tracking-tight;
+  }
+
+  a {
+    @apply text-teal-800 underline decoration-current underline-offset-4 hover:decoration-2;
+  }
+
+  :where(a, main):focus-visible {
+    @apply rounded-sm outline-2 outline-offset-4 outline-teal-800 forced-colors:outline-[Highlight];
+  }
+}
