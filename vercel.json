@@ -4,7 +4,20 @@
       "source": "/profile.json",
       "headers": [
         { "key": "X-Robots-Tag", "value": "noindex" },
-        { "key": "Access-Control-Allow-Origin", "value": "*" }
+        { "key": "Vary", "value": "Origin" }
+      ]
+    },
+    {
+      "source": "/profile.json",
+      "has": [
+        {
+          "type": "header",
+          "key": "origin",
+          "value": "https://(?<allowedOrigin>(?:[a-z0-9-]+\\.)+forestp\\.dev)"
+        }
+      ],
+      "headers": [
+        { "key": "Access-Control-Allow-Origin", "value": "https://:allowedOrigin" }
       ]
     }
   ]
