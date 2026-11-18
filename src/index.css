@@ -3,12 +3,18 @@
 
 @layer base {
   body {
-    @apply bg-stone-50 text-stone-950 antialiased;
+    @apply text-stone-950 antialiased;
+    background-color: #f7f4ec;
     font-family: 'Inter Variable', system-ui, sans-serif;
   }
 
+  h1,
   h2 {
-    @apply mb-4 border-b border-stone-200 pb-2 text-2xl font-semibold tracking-tight;
+    font-family: Georgia, 'Times New Roman', serif;
+  }
+
+  h2 {
+    @apply mb-4 border-b border-stone-300 pb-2 text-3xl font-normal tracking-tight;
   }
 
   h3 {

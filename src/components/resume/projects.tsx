@@ -6,7 +6,7 @@ export function Projects() {
   return (
     <ResumeSection id="projects" title="Selected Projects">
       <div className="space-y-4">
-        {resume.projects.map(({ name, description, url }) => (
+        {resume.projects.filter(({ featured }) => featured).map(({ name, description, url }) => (
           <article key={name}>
             <h3>
               {url ? (

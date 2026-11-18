@@ -5,7 +5,7 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "tsc -b && vite build",
+    "build": "tsc -b && vite build && cp src/profile.json dist/profile.json",
     "lint": "oxlint",
     "preview": "vite preview"
   },
