@@ -4,7 +4,8 @@
       "source": "/profile.json",
       "headers": [
         { "key": "X-Robots-Tag", "value": "noindex" },
-        { "key": "Vary", "value": "Origin" }
+        { "key": "Vary", "value": "Origin" },
+        { "key": "Access-Control-Allow-Origin", "value": "https://resume.forestp.dev" }
       ]
     },
     {
